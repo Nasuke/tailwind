@@ -1,7 +1,17 @@
+import Nav  from "./components/Nav";
+import {
+  CustomerReviews,
+  Footer,
+  Hero,
+  PopularProducts,
+  Services,
+  SpecialOffer,
+  Subscribe,
+  SuperQuality,
+} from "./sections";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello there
-    </h1>
+    <Nav />
   )
 }
